@@ -1,6 +1,7 @@
 import { Hono } from 'hono'
 import { cors } from 'hono/cors'
 import { serve } from 'bun'
+import 'dotenv/config'
 import statsRouter from './routes/stats-routes.js'
 
 const app = new Hono()
